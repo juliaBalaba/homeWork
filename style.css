@@ -1,0 +1,37 @@
+body {
+    height: 520px;
+    width: 800px;
+}
+
+.footer-part {
+    height: 220px;
+    width: 800px; 
+    background-color: #121116;
+    align-items: center;
+}
+.footer-part ~ .footer-img {
+    align-content: center;
+    margin: 20px;
+}
+
+.social {
+    color: white;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.footer-list {
+    display: flex;
+}
+.copyright {
+    color: white;
+    text-align: center;
+}
+.blue {
+    color: #00c7fc;
+}
+.line {
+    border: 1px solid white;
+    width: 230px;
+    align-content: center;
+}
